@@ -39,6 +39,12 @@ npm run dev
 npm run build
 ```
 
+Node.js `20.9.0` 이상이 필요합니다.
+
+## Vercel Import Summary
+
+이 repo는 YCLabs 운영사 공식 사이트이며, Vercel에서 `yclabs.co.kr` apex 도메인에 연결할 대상입니다. Bangkok Stay Optimizer 앱과 `app.yclabs.co.kr` 배포는 별도 프로젝트로 유지합니다.
+
 ## Vercel Deployment Checklist
 
 1. GitHub에 `yclabs-site` repo를 만들고 이 프로젝트를 push합니다.
@@ -47,7 +53,7 @@ npm run build
 4. 환경변수 없이 배포할 수 있습니다.
 5. Vercel Project Settings > Domains에서 `yclabs.co.kr`를 추가합니다.
 6. apex 도메인은 Vercel 안내에 따라 `A 76.76.21.21`을 확인합니다.
-7. `www.yclabs.co.kr`도 사용할 경우 Vercel 안내에 따라 `CNAME cname.vercel-dns.com`을 설정합니다.
+7. `www.yclabs.co.kr`도 사용할 경우 Vercel 안내에 따라 `CNAME cname.vercel-dns-0.com` 또는 프로젝트별로 표시되는 CNAME 값을 설정합니다.
 8. `app.yclabs.co.kr`는 Bangkok Stay Optimizer 앱 프로젝트에 연결된 상태를 유지합니다.
 9. DNS 변경 후 Vercel의 domain verification과 SSL 발급 상태를 확인합니다.
 
