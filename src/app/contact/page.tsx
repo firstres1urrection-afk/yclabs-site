@@ -6,7 +6,7 @@ import { createMetadata, mailto, site } from "@/lib/site";
 export const metadata: Metadata = createMetadata({
   title: "Contact",
   description:
-    "YCLabs 일반 문의 채널입니다. 서비스 운영, 정책, 오류 제보 등은 support@yclabs.co.kr로 연락해 주세요.",
+    "YCLabs 일반 문의 채널입니다. 서비스 운영, 정책, 오류 제보 등은 ops@yclabs.co.kr로 연락해 주세요.",
   path: "/contact",
 });
 
@@ -21,8 +21,8 @@ export default function ContactPage() {
     <>
       <PageHero
         eyebrow="Contact"
-        title="일반 문의는 공식 지원 메일로 받습니다."
-        description="YCLabs와 Bangkok Stay Optimizer 관련 일반 문의는 support@yclabs.co.kr로 보내 주세요. 제휴 제안은 Partnership 페이지의 별도 메일을 이용하면 더 빠르게 분류할 수 있습니다."
+        title="일반 문의는 공식 운영 메일로 받습니다."
+        description="YCLabs와 Bangkok Stay Optimizer 관련 일반 문의는 ops@yclabs.co.kr로 보내 주세요. 제휴 제안도 같은 메일로 접수하며, Partnership 페이지의 제목으로 보내면 더 빠르게 분류할 수 있습니다."
       >
         <div className="flex flex-col gap-3 sm:flex-row">
           <LinkButton href={mailto(site.supportEmail, "YCLabs 일반 문의")}>
@@ -39,7 +39,7 @@ export default function ContactPage() {
           <Card>
             <SectionTitle
               title="문의 목적 예시"
-              description="다음과 같은 내용을 공식 지원 메일로 보낼 수 있습니다."
+              description="다음과 같은 내용을 공식 운영 메일로 보낼 수 있습니다."
             />
             <ul className="mt-6 space-y-3 text-sm leading-6 text-zinc-700">
               {examples.map((example) => (

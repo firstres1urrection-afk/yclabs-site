@@ -7,8 +7,8 @@ export const site = {
   description:
     "Bangkok Stay Optimizer를 운영하는 YCLabs의 공식 운영사/브랜드 사이트입니다.",
   appUrl: "https://app.yclabs.co.kr",
-  supportEmail: "support@yclabs.co.kr",
-  partnersEmail: "partners@yclabs.co.kr",
+  supportEmail: "ops@yclabs.co.kr",
+  partnersEmail: "ops@yclabs.co.kr",
   issuesUrl:
     "https://github.com/firstres1urrection-afk/bangkok-stay-optimizer/issues",
 };

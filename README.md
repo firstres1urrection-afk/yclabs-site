@@ -21,8 +21,8 @@ YCLabs 운영사/브랜드 공식 사이트입니다. Bangkok Stay Optimizer 앱
 
 ## Official Channels
 
-- 일반 문의: `support@yclabs.co.kr`
-- 제휴 문의: `partners@yclabs.co.kr`
+- 일반 문의: `ops@yclabs.co.kr`
+- 제휴 문의: `ops@yclabs.co.kr`
 - 서비스: `https://app.yclabs.co.kr`
 - 버그 제보 / 기능 요청 보조 채널: GitHub Issues
 

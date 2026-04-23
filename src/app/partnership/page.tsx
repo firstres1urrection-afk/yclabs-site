@@ -6,7 +6,7 @@ import { createMetadata, mailto, site } from "@/lib/site";
 export const metadata: Metadata = createMetadata({
   title: "Partnership",
   description:
-    "YCLabs 제휴 문의 채널입니다. affiliate, redirect, API 연동 등 협업 문의는 partners@yclabs.co.kr로 연락해 주세요.",
+    "YCLabs 제휴 문의 채널입니다. affiliate, redirect, API 연동 등 협업 문의는 ops@yclabs.co.kr로 연락해 주세요.",
   path: "/partnership",
 });
 
@@ -22,7 +22,7 @@ export default function PartnershipPage() {
     <>
       <PageHero
         eyebrow="Partnership"
-        title="제휴와 파트너 문의는 별도 메일로 받습니다."
+        title="제휴와 파트너 문의는 공식 운영 메일로 받습니다."
         description="Bangkok Stay Optimizer는 방콕 숙소 비교와 외부 예약 채널 연결을 중심으로 운영됩니다. affiliate, redirect, API 연동 등 서비스 구조에 맞는 협업 가능성을 검토할 수 있습니다."
       >
         <div className="flex flex-col gap-3 sm:flex-row">

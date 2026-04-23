@@ -89,7 +89,7 @@ export default function Home() {
           <Card>
             <h3 className="text-lg font-semibold text-zinc-950">공식 문의</h3>
             <p className="mt-3 text-sm leading-6 text-zinc-600">
-              일반 문의, 서비스 운영 관련 문의, 정책 관련 문의는 공식 지원
+              일반 문의, 서비스 운영 관련 문의, 정책 관련 문의는 공식 운영
               메일로 받습니다.
             </p>
             <div className="mt-5">
